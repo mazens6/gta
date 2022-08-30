@@ -1,0 +1,78 @@
+.img1{
+    width: 100%
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 22px;
+}
+
+li a{
+    text-decoration: none;
+    padding: 10px;
+    color: red;
+}
+
+h1{
+   padding: 20px 25px;
+}
+
+li a:hover{
+    color: aqua;
+    transition: 0.5s;
+}
+
+.text h1{
+    font-size: 2em;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 110px;
+    margin-bottom: 8px;
+}
+
+.text h2{
+    font-size: 1.5em;
+    width: 60%;
+    text-align: right;
+    margin-left: 250px;
+    color: rgb(2, 168, 104);
+    margin-bottom: 100px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.image{
+   margin-top: 180px;
+   margin-left: 40px;
+   border-radius: 10px;
+}
+
+
+span{
+    background-color: rgb(0, 255, 255);
+    color: white;
+}
+
+.img3{
+    width: 100%;
+}
+
+.cont{
+    display: flex;
+}
